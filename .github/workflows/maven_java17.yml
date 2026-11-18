@@ -4,6 +4,7 @@
 name: Maven Build - Java 17
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
